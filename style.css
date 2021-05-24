@@ -1,0 +1,76 @@
+body{
+    background-image: url('singleboy2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:cursive;
+    background-color: lightgray;
+}
+
+
+/*       --------------header----------------------                                  */
+
+
+.header h1{
+    position: absolute;
+    top: 2%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+  /* ----------navigation bar------------------------------------------------ */
+
+
+.nav{
+  float: right;
+  list-style: none;
+}
+.nav .navigation{
+    display: inline;
+    padding-left: 20px;
+    
+
+}
+.navigation a{
+    color: grey;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: rgb(75, 67, 67);
+}
+/* ---------------------introduction---------------------- */
+.intro{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50% );
+}
+.intro:hover{
+    opacity: .8;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50% );
+    text-shadow:0 0 10px navy;
+
+}
+/* ---------------------about me------------------------------ */
+.button{
+    
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%,-50% );
+        
+
+    
+}
+.button a{
+    color: rgba(26, 24, 24, 0.753);
+    text-decoration: none;
+ 
+}
+.button a:hover{
+    color: hotpink;
+}
